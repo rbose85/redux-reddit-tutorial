@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "indent": [
+      2,
+      4
+    ],
+    "react/jsx-indent-props": [
+      2,
+      4
+    ],
+    "react/jsx-no-bind": [
+      2,
+      {
+        "allowArrowFunctions": true,
+        "allowBind": false
+      }
+    ],
+    "semi": [
+      2,
+      "never"
+    ]
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  }
+}
