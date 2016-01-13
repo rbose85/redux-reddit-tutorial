@@ -57,7 +57,7 @@ export function fetchPosts(reddit) {
 function shouldFetchPosts(state, reddit) {
     const posts = state.postsByReddit[reddit]
 
-    if (posts) {
+    if (!posts) {
         return true
     } else if (posts.isFetching) {
         return false
