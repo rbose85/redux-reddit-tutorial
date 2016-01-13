@@ -1,1 +1,1 @@
-# React Redux Template
+# React Reddit Tutorial
